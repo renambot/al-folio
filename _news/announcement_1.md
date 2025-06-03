@@ -2,8 +2,18 @@
 layout: post
 title: DOCC, Data Observation and Computation Collaboratory
 date: 2023-07-10
-related_posts: false
+related_posts: true
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/doccrendering.png-srcw-800.webp" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Artistic rendering of the Data Observation and Computation Collaboratory (DOCC) in the new Computer Design Research and Learning Center (CDRLC) building.
+</div>
+
 
 July 10, 2023
 
