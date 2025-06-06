@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arcade Space 'delivered' to EVL
-date: 2024-05-15
+date: 2025-05-15
 related_posts: true
 ---
 
