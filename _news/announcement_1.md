@@ -3,6 +3,7 @@ layout: post
 title: DOCC, Data Observation and Computation Collaboratory
 date: 2023-07-10
 related_posts: true
+tags: [grant, mri, research]
 ---
 
 <div class="row mt-3">

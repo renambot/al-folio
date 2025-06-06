@@ -3,6 +3,7 @@ layout: post
 title: Structure on the Wall
 date: 2025-06-06
 related_posts: true
+tags: [hardware, project]
 ---
 
 <div class="row mt-3">

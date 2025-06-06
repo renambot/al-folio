@@ -3,6 +3,7 @@ layout: post
 title: Arcade Space 'delivered' to EVL
 date: 2025-05-15
 related_posts: true
+tags: [hardware, project]
 ---
 
 <div class="row mt-3">

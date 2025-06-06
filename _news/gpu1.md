@@ -3,6 +3,7 @@ layout: post
 title: First GPU SuperServer for DOCC
 date: 2024-02-01
 related_posts: true
+tags: [ai, hardware, research]
 ---
 
 <div class="row mt-3">

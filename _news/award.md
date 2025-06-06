@@ -3,6 +3,7 @@ layout: post
 title: EVL Awarded NSF MRI Support to Build the Data Observation and Computation Collaboratory
 date: 2023-10-1
 related_posts: true
+tags: [award, mri, research]
 ---
 
 <div class="row mt-3">

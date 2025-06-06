@@ -3,6 +3,7 @@ layout: post
 title: First Users of DOCC AI Infrastructure
 date: 2024-05-01
 related_posts: true
+tags: [software, ai, users, research]
 ---
 
 <div class="row justify-content-md-center">
