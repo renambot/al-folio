@@ -6,6 +6,11 @@ related_posts: true
 tags: [hardware, project]
 ---
 
+- Substantial completion of the EVL Arcade Space project has been achieved, with the space now ready for upgrade.
+- This project involved transforming the original UIC SEL delivery dock area into a functional and engaging laboratory space,
+complete with new electrical, neworking, flooring, lighting, and furniture.
+- The next phase will focus on mounting the new display (Sony Direct View LED), ancillary equipment (TVs, projectors, etc.).
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/docc9-800.webp" class="img-fluid rounded z-depth-1"%}
@@ -38,8 +43,3 @@ tags: [hardware, project]
 <div class="caption">
     The Arcade
 </div>
-
-Substantial completion of the EVL Arcade Space project has been achieved, with the space now ready for upgrade.
-This project involved transforming the original UIC SEL delivery dock area into a functional and engaging laboratory space,
-complete with new electrical, neworking, flooring, lighting, and furniture. The next phase will focus on mounting
-the new display (Sony Direct View LED), ancillary equipment (TVs, projectors, etc.).
