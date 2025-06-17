@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LED Wall Day 1
-date: 2025-06-11
+date: 2025-06-16
 related_posts: true
 tags: [hardware, project]
 ---
