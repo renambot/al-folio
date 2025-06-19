@@ -9,7 +9,7 @@ tags: [hardware, project]
 - We unpacked all the LED modules and installed them in the cabinets.
 - Only one small power glitch (a loose cable) during the installation.
 - All the panels are now powered and connected to the two Sony controllers.
-- Only two panels seems to need some adjustment, might be resolved during the calibration phase.
+- Only two panels seem to need some adjustments, it might be resolved during the calibration phase.
 - Next week, we will start the calibration process to ensure everything is aligned and functioning correctly, and try to enable stereo 3D.
 
 <div class="row mt-3">
@@ -39,10 +39,16 @@ tags: [hardware, project]
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/day6 - 3-800.webp" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/day3 - 5-800.webp" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/day6 - 4-800.webp" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/day3 - 6-800.webp" class="img-fluid rounded z-depth-1"%}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/day3 - 7-800.webp" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -51,7 +57,7 @@ tags: [hardware, project]
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/day8 - 3-800.webp" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/day3 - 8-800.webp" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -60,7 +66,7 @@ tags: [hardware, project]
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/day10 - 3-800.webp" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/day3 - 10-800.webp" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
