@@ -4,6 +4,7 @@ title: Arcade Space 'delivered' to EVL
 date: 2025-05-15
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/docc2-800.webp"
 ---
 
 - Substantial completion of the EVL Arcade Space project has been achieved, with the space now ready for upgrade.

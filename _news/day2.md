@@ -4,6 +4,7 @@ title: LED Wall Day 2
 date: 2025-06-17
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/day2 - 1-800.webp"
 ---
 
 - All the cabinets wired for power and data.

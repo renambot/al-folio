@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Structure on the Wall
+title: Mounting structure on the Wall
 date: 2025-06-06
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/mounting12-800.webp"
 ---
 
 - After two days of work, the mounting structure is now mounted on the wall. It is now ready to receive the first LED modules.

@@ -4,7 +4,17 @@ title: LED Wall Day 3
 date: 2025-06-18
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/day3 - 10-800.webp"
 ---
+
+
+<div class="row mt-3">
+<iframe width="1000" height="562" src="https://www.youtube.com/embed/fZu0ReeoGxA?si=RaaF1hNr7RRF_j2j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    It runs, at the end of the day.
+</div>
+
 
 - We unpacked all the LED modules and installed them in the cabinets.
 - Only one small power glitch (a loose cable) during the installation.

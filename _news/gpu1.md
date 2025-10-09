@@ -4,6 +4,7 @@ title: First GPU SuperServer for DOCC
 date: 2024-02-01
 related_posts: true
 tags: [ai, hardware, research]
+image: "assets/img/server-800.webp"
 ---
 
 <div class="row mt-3">

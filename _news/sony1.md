@@ -4,6 +4,7 @@ title: LED Wall Day 1
 date: 2025-06-16
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/sony-day1 - 11-800.webp"
 ---
 
 - Unpacking all the cabinets and display panels for the LED wall.

@@ -4,6 +4,7 @@ title: First Users of DOCC AI Infrastructure
 date: 2024-05-01
 related_posts: true
 tags: [software, ai, users, research]
+image: "assets/img/arcade-800.webp"
 ---
 
 <div class="row justify-content-md-center">

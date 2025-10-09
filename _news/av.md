@@ -4,6 +4,7 @@ title: AV Progress
 date: 2025-06-11
 related_posts: true
 tags: [hardware, project]
+image: "assets/img/moving - 01-800.webp"
 ---
 
 - The first phase of the AV integration is complete.
