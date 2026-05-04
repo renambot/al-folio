@@ -56,6 +56,21 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+
+    <p style="display: flex; align-items: center;">
+      <span style="flex: 1;">
+        The Arcade is funded by the following National Science Foundation award:
+        <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2320261">
+          #2320261 Research Infrastructure: MRI: Track 2 Acquisition of Data Observation and Computation Collaboratory (DOCC)
+        </a>
+      </span>
+      <img
+        src="assets/img/NSF_logo.png"
+        alt="National Science Foundation logo"
+        style="height: 80px; margin-left: 10px;"
+      />
+    </p>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
