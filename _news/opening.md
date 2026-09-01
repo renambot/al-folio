@@ -8,7 +8,7 @@ image: "assets/img/arcade - 225-800.webp"
 ---
 
 - The back projectors are now installed and operational, showing logos and other content.
-- The front TVs are showing some EVL content.
+- The front TVs are showing EVL content.
 - The LED wall is now fully operational, and we are testing some applications (Paraview, ARCGis Pro, SAGE3, etc.).
 - The building is now open to the public, and we are preparing for the official opening ceremony.
 

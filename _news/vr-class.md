@@ -7,9 +7,9 @@ tags: [vr, class, tour]
 image: "assets/img/IMG_9145-800.webp"
 ---
 
-- Today Saeed Boorboor, new Assistant Professor at the Department of Computer Science, brought his VR class to show VR
-devices at EVL, the "old" CAVE2 using passive stereo and the "new" Arcade using Direct View LED in active stereo mode.
-- Thanks V and Hal to perform the demos.
+- Today Saeed Boorboor, a new Assistant Professor in the Department of Computer Science, brought his VR class to see the VR
+devices at EVL: the "old" CAVE2, using passive stereo, and the "new" Arcade, using Direct View LED in active stereo mode.
+- Thanks to V and Hal for running the demos.
 
 
 <div class="row mt-3">
@@ -30,6 +30,6 @@ devices at EVL, the "old" CAVE2 using passive stereo and the "new" Arcade using 
     </div>
 </div>
 <div class="caption">
-    The new way: V showing 3D active stereo rendering in Arcade (here PyMol and molecular visualization)
+    The new way: V showing 3D active stereo rendering in the Arcade (here, PyMOL and molecular visualization).
 </div>
 

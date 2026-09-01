@@ -10,7 +10,7 @@ image: "assets/img/moving - 01-800.webp"
 - The first phase of the AV integration is complete.
 - The sound system is installed, including four speakers, two microphones, and a subwoofer.
 - The 'Connectrac' floor-based power system is installed, providing power to the center of the room.
-- Sony boxes containing the LED wall are moved to the space, for next week installation.
+- The Sony boxes containing the LED wall have been moved into the space, ready for installation next week.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,7 +21,7 @@ image: "assets/img/moving - 01-800.webp"
     </div>
 </div>
 <div class="caption">
-    AV integration started.
+    AV integration has started.
 </div>
 
 <div class="row mt-3">
@@ -30,7 +30,7 @@ image: "assets/img/moving - 01-800.webp"
     </div>
 </div>
 <div class="caption">
-    Sound system is installed: 4 speakers, 2 microphones, and a subwoofer.
+    The sound system is installed: 4 speakers, 2 microphones, and a subwoofer.
 </div>
 
 <div class="row mt-3">
@@ -42,7 +42,7 @@ image: "assets/img/moving - 01-800.webp"
     </div>
 </div>
 <div class="caption">
-    'Connectrac' Floor-Based Power - Two 100" TVs
+    'Connectrac' floor-based power and the two 100" TVs.
 </div>
 
 <div class="row mt-3">
@@ -63,5 +63,5 @@ image: "assets/img/moving - 01-800.webp"
     </div>
 </div>
 <div class="caption">
-    Outside the EVL Arcade Space into CDRLC.
+    Looking out from the EVL Arcade space into the CDRLC.
 </div>

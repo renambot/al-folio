@@ -7,10 +7,10 @@ tags: [hardware, project]
 image: "assets/img/sony-day1 - 11-800.webp"
 ---
 
-- Unpacking all the cabinets and display panels for the LED wall.
-- Mounting the cabinets to the wall.
-- Starting putting the data and power cables in place (figuring out the best way to route them).
-- Tomorrow, we put the wires and the display panels in place.
+- Unpacked all the cabinets and display panels for the LED wall.
+- Mounted the cabinets on the wall.
+- Started putting the data and power cables in place (figuring out the best way to route them).
+- Tomorrow, we will put the wires and the display panels in place.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -57,7 +57,7 @@ image: "assets/img/sony-day1 - 11-800.webp"
     </div>
 </div>
 <div class="caption">
-    98 DisplayCabinets.
+    98 display cabinets.
 </div>
 
 <div class="row mt-3">
@@ -72,5 +72,5 @@ image: "assets/img/sony-day1 - 11-800.webp"
     </div>
 </div>
 <div class="caption">
-    Cabinets done at the end of the day.
+    The cabinets, done at the end of the day.
 </div>

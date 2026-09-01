@@ -19,7 +19,7 @@ image: "assets/img/day3 - 10-800.webp"
 - We unpacked all the LED modules and installed them in the cabinets.
 - Only one small power glitch (a loose cable) during the installation.
 - All the panels are now powered and connected to the two Sony controllers.
-- Only two panels seem to need some adjustments, it might be resolved during the calibration phase.
+- Only two panels seem to need some adjustment; this may be resolved during the calibration phase.
 - Next week, we will start the calibration process to ensure everything is aligned and functioning correctly, and try to enable stereo 3D.
 
 <div class="row mt-3">

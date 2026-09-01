@@ -7,11 +7,11 @@ tags: [event, news]
 image: "assets/img/workshop-800.webp"
 ---
 
-April 29 and April 30, UIC, in collaboration with the University of Toronto, will host Cities in Motion - a workshop on transportation data innovation challenges. The workshop will take place on the UIC campus in the Computer Design Research & Learning Center, Room 1219 - The Arcade.
+On April 29 and 30, UIC, in collaboration with the University of Toronto, will host Cities in Motion, a workshop on transportation data innovation challenges. The workshop will take place on the UIC campus in the Computer Design Research & Learning Center, Room 1219 - The Arcade.
 
-The workshop will feature keynote presentations by Mike Papka and representatives of the Chicago Metropolitan Agency for Planning (CMAP), bringing together researchers, students, and practitioners to discuss the challenges and opportunities in transportation data. Also, as part of the workshop, a hackathon will be organized where students will work with transportation datasets to develop analyses and visualizations. The hackathon will run asynchronously, and students will present their work on the first day of the workshop. Datasets include Sage sensor image data collected from railroad crossings.
+The workshop will feature keynote presentations by Mike Papka and representatives of the Chicago Metropolitan Agency for Planning (CMAP), bringing together researchers, students, and practitioners to discuss the challenges and opportunities in transportation data. As part of the workshop, a hackathon will also be organized, in which students will work with transportation datasets to develop analyses and visualizations. The hackathon will run asynchronously, and students will present their work on the first day of the workshop. Datasets include Sage sensor image data collected from railroad crossings.
 
-To participate in either for the workshop or hackathon, please register at https://rb.gy/n32vxt.
+To participate in the workshop, the hackathon, or both, please register at https://rb.gy/n32vxt.
 
 
 <div class="row mt-3">

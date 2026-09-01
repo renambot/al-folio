@@ -7,8 +7,8 @@ tags: [hardware, project]
 image: "assets/img/mounting12-800.webp"
 ---
 
-- After two days of work, the mounting structure is now mounted on the wall. It is now ready to receive the first LED modules.
-- The networking was also installed: the fiber optic cable is connected to the switch and is active.
+- After two days of work, the mounting structure is installed on the wall. It is now ready to receive the first LED modules.
+- The networking was also installed: the fiber optic cable is connected to the switch and is now active.
 - Cable trays are installed to route the power and data cables around the room.
 - TV stands are assembled and ready to be placed in the room.
 - 100" TVs are unpacked and tested. They are now ready to be mounted on the wall.
@@ -22,7 +22,7 @@ image: "assets/img/mounting12-800.webp"
     </div>
 </div>
 <div class="caption">
-  Seting up the first few rows of the mounting structure is crucial. The structure must be level and aligned with the wall.
+  Setting up the first few rows of the mounting structure is crucial. The structure must be level and aligned with the wall.
 </div>
 
 <div class="row mt-3">
@@ -60,5 +60,5 @@ image: "assets/img/mounting12-800.webp"
     </div>
 </div>
 <div class="caption">
-    Network is up. 100G fiber optic cable is connected to the switch and connected to EVL's network.
+    The network is up. The 100G fiber optic cable is connected to the switch and to EVL's network.
 </div>

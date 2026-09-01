@@ -7,7 +7,7 @@ tags: [hardware, project]
 image: "assets/img/arcade - 205-800.webp"
 ---
 
-- We setup more hardware in the Arcade, including some side TVs and mounting for the back projectors.
+- We set up more hardware in the Arcade, including some side TVs and mounts for the back projectors.
 - Each TV is connected to a Mac Mini to display SAGE3 boards.
 - The carpet was installed, and the room is now ready for the final touches.
 

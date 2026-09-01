@@ -7,10 +7,10 @@ tags: [hardware, project]
 image: "assets/img/day2 - 1-800.webp"
 ---
 
-- All the cabinets wired for power and data.
+- All the cabinets are wired for power and data.
 - The two Sony controllers were installed.
 - Ready to light up the wall tomorrow.
-- Sony TVs moved down to the space.
+- The Sony TVs were moved down to the space.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

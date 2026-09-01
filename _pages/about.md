@@ -15,10 +15,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Arcade at UIC is a new visual data science space at UIC, in the new CDLRC building (900 W. Taylor St, first floor, room 1219).
+The Arcade at UIC is a new visual data science space, located in the new CDRLC building (850 W Taylor St, Building 649, Room 1219).
 
 # Location
-The 'Arcade' is to be housed in UIC's new Computer Design Research and Learning Center (CDRLC). Followed by Commissioning, Audio Visual, and Furnishings Systems installation, Final Acceptance/Occupancy is expected by Summer'25.
+The 'Arcade' is housed in UIC's new Computer Design Research and Learning Center (CDRLC) building. After commissioning and the installation of the audio visual and furnishing systems, final acceptance and occupancy happened in Summer 2025.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -33,4 +33,4 @@ The 'Arcade' is to be housed in UIC's new Computer Design Research and Learning 
 </div>
 
 
-CDRLC, the new 135,000-square-foot, LEED Gold-certified building will double the department’s capacity. It will include 16,000 square feet of classroom space, an Undergraduate learning and community center, and serveral research labs. A geothermal farm is to assist with sustainable heating and cooling.
+CDRLC, the new 135,000-square-foot, LEED Gold-certified building, doubles the department’s capacity. It includes 16,000 square feet of classroom space, an undergraduate learning and community center, and several research labs. A geothermal farm assists with sustainable heating and cooling.

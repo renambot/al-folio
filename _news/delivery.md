@@ -7,10 +7,10 @@ tags: [hardware, project]
 image: "assets/img/docc2-800.webp"
 ---
 
-- Substantial completion of the EVL Arcade Space project has been achieved, with the space now ready for upgrade.
+- Substantial completion of the EVL Arcade Space project has been achieved, with the space now ready for its upgrade.
 - This project involved transforming the original UIC SEL delivery dock area into a functional and engaging laboratory space,
-complete with new electrical, neworking, flooring, lighting, and furniture.
-- The next phase will focus on mounting the new display (Sony Direct View LED), ancillary equipment (TVs, projectors, etc.).
+complete with new electrical, networking, flooring, lighting, and furniture.
+- The next phase will focus on mounting the new display (Sony Direct View LED) and the ancillary equipment (TVs, projectors, etc.).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

@@ -21,4 +21,4 @@ DOCC is designed to run AI/ML applications, data analytics, simulations, and vis
 
 It includes several components:
 - **AI/ML Workflows**: Users can create and run AI/ML workflows using GPU-supported Jupyter Notebooks.
-- **Foundation LLMs**: DOCC provides access to foundation Large Language Models (LLMs) for various applications, including text generation, summarization, and question-answering. Through web interfaces, users can interact with these models. It includes several versions of Llama models and Nvidia-based NIM models.
+- **Foundation LLMs**: DOCC provides access to foundation Large Language Models (LLMs) for various applications, including text generation, summarization, and question-answering. Users can interact with these models through web interfaces. Several versions of the Llama models and Nvidia-based NIM models are available.

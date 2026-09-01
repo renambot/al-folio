@@ -7,7 +7,7 @@ tags: [hardware, calibration, project]
 image: "assets/img/arcade - 158-800.webp"
 ---
 
-- We configured the rendering PC with a Quadro card and setup the Windows environment.
+- We configured the rendering PC with a Quadro card and set up the Windows environment.
 - The LED wall is now properly connected to the rendering PC and the Sony controllers.
 - The Sony engineers are working on the calibration process, which includes adjusting the brightness, contrast, and color balance of each panel to ensure uniformity across the entire display.
 
