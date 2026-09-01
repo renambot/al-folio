@@ -1,0 +1,23 @@
+# Links shown on the /links/ page.
+# Mirrors the "Links" section of https://arcade.evl.uic.edu/ (the "Blog" entry
+# is omitted: it points back at this site).
+#
+#   name:        short label
+#   description: what the link is for
+#   url:         where it goes
+#   icon:        file in assets/img/links/
+
+- name: Chat
+  description: Locally-hosted LLMs at EVL (Llama4, Gemma4, ...)
+  url: https://arcade.evl.uic.edu:9000/
+  icon: chat.png
+
+- name: Control
+  description: Take control of the Arcade room
+  url: https://arcade.evl.uic.edu/control
+  icon: control.png
+
+- name: Guide
+  description: Arcade room user guide
+  url: https://docs.google.com/document/d/1HE1f6BYvVtCHcVmQjcdlM3PHei8_wRkAfaz4pUx-yCk/edit?usp=sharing
+  icon: arcade-icon.png

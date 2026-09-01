@@ -536,6 +536,64 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
+// Links
+
+.link-list {
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-item {
+  margin-bottom: 0.75rem;
+
+  > a {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-text-color);
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .link-icon {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .link-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .link-name {
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+
+  .link-description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+  }
+}
+
 // Applications
 
 .app-grid {
