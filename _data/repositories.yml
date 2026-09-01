@@ -1,3 +1,5 @@
+# Owners whose name is not repeated on a repository card (see repo.liquid).
+# The repositories page no longer renders a user card for them.
 github_users:
   - renambot
 
