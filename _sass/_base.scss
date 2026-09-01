@@ -536,6 +536,82 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
+// Applications
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .app-thumb-link {
+    display: block;
+    line-height: 0;
+    background-color: var(--global-divider-color);
+  }
+
+  .app-thumb {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+  }
+
+  .app-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0.9rem 1rem 1rem;
+  }
+
+  .app-name {
+    margin: 0 0 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .app-description {
+    margin: 0 0 0.6rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: var(--global-text-color);
+  }
+
+  // Pins the link and citation to the bottom so cards of unequal text length
+  // still line up across a row.
+  .app-link {
+    margin: auto 0 0.35rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    word-break: break-word;
+  }
+
+  .app-cite {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+  }
+}
+
 // Repositories
 
 @media (min-width: 768px) {

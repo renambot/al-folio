@@ -1,0 +1,129 @@
+# Data science applications running in the Arcade.
+# Mirrors the "Data Science Applications" section of https://arcade.evl.uic.edu/
+#
+#   name:        display name of the application
+#   url:         where the application lives
+#   link_text:   how the URL is shown on the card (defaults to url)
+#   thumb:       file in assets/img/apps/
+#   description: one or two sentences
+#   cite:        citation or credit line (optional)
+#   cite_url:    link for the citation (optional)
+
+- name: ConGAT
+  url: https://arcade.evl.uic.edu/congat
+  link_text: arcade.evl.uic.edu/congat
+  thumb: congat-thumb.jpg
+  description: >-
+    Context-aware graph attention visual analysis for 3D region of interest
+    discovery in multiplexed microscopy images, by Hossein Fathollahian et al.
+  cite: >-
+    H. Fathollahian et al, ConGAT: Context-Aware Graph Attention Visual Analysis
+    for 3D Region of Interest Discovery in Multiplexed Microscopy Images,
+    Computers & Graphics, 2026
+  cite_url: https://www.sciencedirect.com/science/article/pii/S0097849326001998
+
+- name: BioSET
+  url: https://arcade.evl.uic.edu/bioset
+  link_text: arcade.evl.uic.edu/bioset
+  thumb: bioset-thumb.jpg
+  description: >-
+    Interactive visual analysis of biomarker co-localization in large
+    multi-volume tissue data.
+  cite: Chahat Kalsi, Hossein Fathollahian et al.
+
+- name: Scout
+  url: https://arcade.evl.uic.edu/scout
+  link_text: arcade.evl.uic.edu/scout
+  thumb: scout-thumb.jpg
+  description: Visual analytics for exploring urban data, by Kazi Shahrukh Omar et al.
+  cite: >-
+    Scout: Visual Analytics for Urban Data Exploration, Kazi Shahrukh Omar et al.
+  cite_url: https://komar41.github.io/
+
+- name: Loom
+  url: https://arcade.evl.uic.edu/loom
+  link_text: arcade.evl.uic.edu/loom
+  thumb: loom-thumb.jpg
+  description: >-
+    Multi-region analysis of spatial transcriptomics with local neighborhoods
+    and global trajectories, by Siyuan Zhao et al.
+  cite: >-
+    S. Zhao et al., Loom: Multi-Region Analysis of Spatial Transcriptomics with
+    Local Neighborhoods and Global Trajectories, IEEE VIS'26, IEEE Trans. of
+    Vis. and Comp. Graphics, Jan 2027
+  cite_url: https://arxiv.org/abs/2607.22505
+
+- name: Vitral
+  url: https://arcade.evl.uic.edu/vitral
+  link_text: arcade.evl.uic.edu/vitral
+  thumb: vitral-thumb.jpg
+  description: >-
+    A framework for reproducible design studies in visual analytics, by
+    Gustavo Moreira et al.
+  cite: >-
+    Vitral: A Framework for Reproducible Design Studies in Visual Analytics,
+    Gustavo Moreira, Luc Renambot, Daniel de Oliveira, Marcos Lage, Fabio Miranda
+  cite_url: https://urbantk.org/vitral/
+
+- name: Model-Check
+  url: https://arcade.evl.uic.edu/model-check
+  link_text: arcade.evl.uic.edu/model-check
+  thumb: model-check-thumb.jpg
+  description: >-
+    Web application for checking and comparing models, by Tahsen Islam Sajon et al.
+  cite: "model-check: A Web Application for Model Checking"
+  cite_url: https://sajontahsen.github.io/
+
+- name: ASR
+  url: https://arcade.evl.uic.edu/speech
+  link_text: arcade.evl.uic.edu/speech
+  thumb: asr-thumb.png
+  description: >-
+    Continuous live Automatic Speech Recognition (ASR) in the browser, via a
+    GPU-accelerated NVIDIA ASR NIM, with speaker diarization, background LLM
+    analyzers, and Markdown export.
+  cite: Live Automatic Speech Recognition (ASR), Luc Renambot, github.com/renambot/ASR
+  cite_url: https://github.com/renambot/ASR
+
+- name: SAGE3
+  url: https://sage3.sagecommons.org/
+  link_text: sage3.sagecommons.org
+  thumb: sage3-thumb.jpg
+  description: >-
+    Open-source platform designed to help individuals and teams collaborate
+    effectively, with AI in the loop.
+  cite: >-
+    Building Collaborative Intelligence: The Translational Journey of the Smart
+    Amplified Group Environment Across Research, Education, and Practice,
+    J. Leigh et al., Springer Nature Computer Science, 17 March 2026,
+    Volume 7, article number 281
+  cite_url: https://doi.org/10.1007/s42979-026-04861-5
+
+- name: VR Gaussian Splats
+  url: https://arcade.evl.uic.edu/vr-splats
+  link_text: arcade.evl.uic.edu/vr-splats
+  thumb: vr-splats-thumb.jpg
+  description: Immersive viewing of 3D Gaussian splatting scenes in virtual reality.
+
+- name: VIPS it
+  url: https://arcade.evl.uic.edu/vipsit
+  link_text: arcade.evl.uic.edu/vipsit
+  thumb: vips.png
+  description: >-
+    Large image processor for SAGE3, converting gigapixel images into zoomable
+    tiles, built on libvips.
+  cite: >-
+    J. Cupitt, K. Martinez, L. Fuller, K.A. Wolthuizen, The libvips image
+    processing library, Electronic Imaging 2025, Society for Imaging Science
+    and Technology, Feb 2025
+  cite_url: https://doi.org/10.2352/EI.2025.37.12.HPCI-178
+
+- name: 3D Video Player
+  url: https://arcade.evl.uic.edu/video/
+  link_text: arcade.evl.uic.edu/video
+  thumb: framesync-thumb.png
+  description: >-
+    Frame-exact WebCodecs video player with stereo 3D rendering, synchronizing
+    any number of clients to a shared clock, up to tiled video-wall deployments.
+  cite: "Source code: github.com/renambot/FrameSync"
+  cite_url: https://github.com/renambot/FrameSync
