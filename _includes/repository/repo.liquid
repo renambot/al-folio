@@ -5,6 +5,10 @@
   the GitHub icon and the link are baked in at build time. Live metadata
   (description, language, stars, forks) is filled in by assets/js/repo_cards.js
   when api.github.com is reachable, and simply stays hidden when it is not.
+
+  Pass private=true for a repository that is not public. The card is then
+  labelled "private" and no metadata is requested, since GitHub answers 404 for
+  anyone who cannot see the repository.
 {% endcomment %}
 
 {% assign repo_url = include.repository | split: '/' %}
@@ -21,8 +25,10 @@
   <a
     class="repo-card"
     href="https://github.com/{{ include.repository }}"
-    data-repo="{{ include.repository }}"
-    title="{{ include.repository }} on GitHub"
+    {% unless include.private %}
+      data-repo="{{ include.repository }}"
+    {% endunless %}
+    title="{{ include.repository }}{% if include.private %} (private repository){% else %} on GitHub{% endif %}"
   >
     <div class="repo-card-header">
       <svg class="repo-card-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
@@ -37,6 +43,9 @@
         {%- endif -%}
         {{- repo_name }}
       </span>
+      {% if include.private %}
+        <span class="repo-card-badge" title="This repository is private">private</span>
+      {% endif %}
     </div>
 
     <p class="repo-card-description" data-repo-description></p>

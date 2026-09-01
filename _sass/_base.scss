@@ -719,6 +719,17 @@ footer.sticky-bottom {
     border-radius: 50%;
     background-color: var(--global-theme-color);
   }
+
+  .repo-card-badge {
+    flex: 0 0 auto;
+    margin-left: auto;
+    padding: 0.05rem 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 2em;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
 }
 
 // Blog

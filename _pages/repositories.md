@@ -43,6 +43,9 @@ nav_order: 5
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
+  {% for repo in site.data.repositories.private_repos %}
+    {% include repository/repo.liquid repository=repo private=true %}
+  {% endfor %}
 </div>
 {% endif %}
 

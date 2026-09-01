@@ -6,3 +6,9 @@ repo_description_lines_max: 2
 github_repos:
   - SAGE-3/next
   - renambot/FrameSync
+  - renambot/ASR
+
+# Repositories that are not public. They are shown with a "private" label and
+# no live metadata, since GitHub answers 404 for anyone who cannot see them.
+private_repos:
+  - renambot/ArcadeCtrl
