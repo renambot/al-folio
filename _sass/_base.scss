@@ -544,6 +544,107 @@ footer.sticky-bottom {
   }
 }
 
+.repo {
+  width: 100%;
+}
+
+.repo-card {
+  display: block;
+  height: 100%;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  text-align: left;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .repo-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .repo-card-icon {
+    flex: 0 0 auto;
+    color: var(--global-text-color-light);
+  }
+
+  .repo-card-avatar {
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  // The generic GitHub icon is only a stand-in for a missing avatar: the
+  // avatar's onerror handler removes the image, and this rule stops matching.
+  .repo-card-avatar + .repo-card-icon {
+    display: none;
+  }
+
+  .repo-card-title {
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+    color: var(--global-theme-color);
+  }
+
+  .repo-card-owner {
+    display: block;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+
+  .repo-card-description {
+    margin: 0.6rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .repo-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .repo-card-stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .repo-card-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--global-theme-color);
+  }
+}
+
 // Blog
 
 .header-bar {

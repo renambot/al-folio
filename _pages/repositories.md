@@ -45,3 +45,6 @@ nav_order: 5
   {% endfor %}
 </div>
 {% endif %}
+
+<!-- Fills the cards above with live GitHub metadata; they render fine without it. -->
+<script defer src="{{ '/assets/js/repo_cards.js' | relative_url | bust_file_cache }}"></script>
