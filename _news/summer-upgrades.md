@@ -5,7 +5,7 @@ date: 2026-08-28
 related_posts: true
 tags: [ai, hardware, project]
 image: "assets/img/summer-upgrades-800.webp"
-image_position: right
+image_position: left
 ---
 
 <div class="row mt-3">
