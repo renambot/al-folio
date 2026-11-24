@@ -1,0 +1,34 @@
+<!-- Home page banner, headline numbers and credit, set in the `hero:` front matter of _pages/about.md -->
+<div class="arcade-hero">
+  <img
+    src="{{ page.hero.image | relative_url }}"
+    alt="{{ page.hero.alt }}"
+    loading="eager"
+  >
+  <div class="arcade-hero-text">
+    <h1>{{ page.hero.title }}</h1>
+    <p>{{ page.hero.subtitle }}</p>
+  </div>
+</div>
+
+{% if page.hero.intro %}
+  <p class="arcade-intro">{{ page.hero.intro }}</p>
+{% endif %}
+
+{% if page.hero.stats %}
+  <div class="arcade-stats">
+    {% for stat in page.hero.stats %}
+      <div class="arcade-stat">
+        <div class="arcade-stat-value">{{ stat.value }}</div>
+        <div class="arcade-stat-label">{{ stat.label }}</div>
+        {% if stat.text %}
+          <p class="arcade-stat-text">{{ stat.text }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if page.hero.credit %}
+  <p class="arcade-credit">{{ page.hero.credit }}</p>
+{% endif %}

@@ -1,0 +1,19 @@
+<!-- One news card: picture, date and title. Used by news_cards.liquid -->
+<a class="arcade-news-card" href="{{ include.item.url | relative_url }}">
+  <div class="arcade-news-img">
+    {% if include.item.image %}
+      <img
+        src="{{ include.item.image | relative_url }}"
+        alt=""
+        loading="lazy"
+        style="object-position: {{ include.item.image_position | default: 'center' }};"
+      >
+    {% else %}
+      <img src="{{ 'assets/img/logo-480.webp' | relative_url }}" alt="" loading="lazy">
+    {% endif %}
+  </div>
+  <div class="arcade-news-body">
+    <div class="arcade-news-date">{{ include.item.date | date: '%b %-d, %Y' }}</div>
+    <div class="arcade-news-title">{{ include.item.title }}</div>
+  </div>
+</a>

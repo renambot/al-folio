@@ -1,0 +1,23 @@
+<!--
+  News as a grid of cards, newest first.
+  Home page: limit=6. News page: by_year=true, all posts grouped under a heading per year.
+-->
+{% assign news = site.news | reverse %}
+{% if include.by_year %}
+  {% assign years = news | group_by_exp: 'item', "item.date | date: '%Y'" %}
+  {% for year in years %}
+    <h2 class="arcade-news-year">{{ year.name }}</h2>
+    <div class="arcade-news-grid">
+      {% for item in year.items %}
+        {% include news_card.liquid item=item %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% else %}
+  {% assign news_limit = include.limit | default: news.size %}
+  <div class="arcade-news-grid">
+    {% for item in news limit: news_limit %}
+      {% include news_card.liquid item=item %}
+    {% endfor %}
+  </div>
+{% endif %}

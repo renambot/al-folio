@@ -18,7 +18,7 @@
           <tr>
             <th scope="row" style="width: 15%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td style="width: 275px; vertical-align: top;">
-                <div style="width: 250px; height:133px;overflow: hidden;">
+                <div class="news-thumb" style="width: 250px; height:133px;overflow: hidden;">
                   <a class="news-title" href="{{ item.url | relative_url }}">
       {% if item.image %}
                     <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover; object-position: {{ item.image_position | default: 'center' }};" />

@@ -32,9 +32,19 @@ $grey-color-muted-dark: #a8a8a8 !default;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Arcade palette: deep blue main colour, cyan accent, blue-black dark mode
+$arcade-blue: #1d4ed8;
+$arcade-cyan-light: #22d3ee;
+$arcade-ink: #0b1220;
+$arcade-ink-card: #121b2e;
+$arcade-ink-line: #24304a;
+$arcade-text-dark: #e2e8f0;
+$arcade-muted-dark: #94a3b8;
+$arcade-muted-light: #475569;
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($arcade-blue, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

@@ -4,6 +4,27 @@ title: about
 permalink: /
 social: false
 
+hero:
+  image: assets/img/arcade3-1400.webp
+  alt: A presenter at the Arcade's LED wall, with students at the tables in front of it
+  title: The Arcade at UIC
+  subtitle: A visual data science space for AI, VR and large-scale visualization
+  intro: The Arcade is a visual data science space in UIC's new Computer Design Research and Learning Center (CDRLC), 850 W Taylor St, Building 649, Room 1219. It opened in Summer 2025.
+  stats:
+    - value: 3 AI servers
+      label: 12 NVIDIA GPUs
+      text: H100 and H200 GPUs to train machine learning code and run large LLMs locally.
+    - value: 4.4B
+      label: LLM tokens a month
+      text: Served to engineering researchers and CS students.
+    - value: 100G
+      label: Network
+      text: Core and research network linking the wall, the rendering servers and the AI servers.
+    - value: 6720 × 1890
+      label: LED wall
+      text: A 26 ft × 6 ft direct-view LED wall for collaborative work, visualization and VR.
+  credit: An Electronic Visualization Laboratory (EVL) space, part of the Data Observation and Computation Collaboratory (DOCC), funded by an NSF MRI award.
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -15,10 +36,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Arcade at UIC is a new visual data science space, located in the new CDRLC building (850 W Taylor St, Building 649, Room 1219).
-
-# Location
-The 'Arcade' is housed in UIC's new Computer Design Research and Learning Center (CDRLC) building. After commissioning and the installation of the audio visual and furnishing systems, final acceptance and occupancy happened in Summer 2025.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,6 +48,3 @@ The 'Arcade' is housed in UIC's new Computer Design Research and Learning Center
 <div class="caption">
     CDRLC outside view (June 2025) and Main floor
 </div>
-
-
-CDRLC, the new 135,000-square-foot, LEED Gold-certified building, doubles the department’s capacity. It includes 16,000 square feet of classroom space, an undergraduate learning and community center, and several research labs. A geothermal farm assists with sustainable heating and cooling.

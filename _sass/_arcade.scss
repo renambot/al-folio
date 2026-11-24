@@ -1,0 +1,328 @@
+/*******************************************************************************
+ * Arcade look: type, cards, figures and the news list.
+ * Colours come from _variables.scss ($arcade-*) and _themes.scss.
+ ******************************************************************************/
+
+// Type
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+.post-title,
+.navbar-brand {
+  font-family: "Space Grotesk", "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.post-title {
+  font-weight: 700;
+}
+
+// A thin line separates the footer from the page
+footer {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// Figures and cards: softer corners and shadows
+.post img.rounded,
+figure img,
+.card {
+  border-radius: 12px !important;
+}
+
+.z-depth-1 {
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.06),
+    0 8px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+.card {
+  border: 1px solid var(--global-divider-color);
+}
+
+.caption {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+// News list
+.news {
+  table td,
+  table th {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  th {
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+
+  .news-thumb {
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+  }
+
+  a.news-title {
+    font-weight: 600;
+  }
+}
+
+// Light mode: grey page with white cards, like the EVL site
+:root {
+  --global-bg-color: #f5f5f7;
+  --global-card-bg-color: #ffffff;
+}
+
+:root .navbar,
+:root footer {
+  background-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .navbar,
+html[data-theme="dark"] footer {
+  background-color: var(--global-bg-color) !important;
+}
+
+// Home page banner: a tall photo of the wall with the title over it
+.arcade-hero {
+  position: relative;
+  margin: 0.25rem 0 1rem;
+  border-radius: 14px;
+  overflow: hidden;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.7) 100%);
+  }
+
+  .arcade-hero-text {
+    position: relative;
+    z-index: 1;
+    padding: 1.75rem 1.75rem 1.5rem;
+  }
+
+  h1 {
+    margin: 0 0 0.35rem;
+    font-size: 2.75rem;
+    color: #fff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  }
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+.arcade-intro {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+// Four cards with the important numbers
+.arcade-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+
+  .arcade-stat {
+    padding: 0.85rem 1rem 0.95rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    background: var(--global-card-bg-color);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  }
+
+  .arcade-stat-value {
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--global-text-color);
+  }
+
+  .arcade-stat-label {
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+
+  .arcade-stat-text {
+    margin: 0.4rem 0 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
+}
+
+.arcade-credit {
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+// News heading with a link to all news
+.arcade-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  h2 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+// Latest news as cards
+.arcade-news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.arcade-news-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.12);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  .arcade-news-img {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background: var(--global-divider-color);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .arcade-news-body {
+    padding: 0.9rem 1rem 1.1rem;
+  }
+
+  .arcade-news-date {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .arcade-news-title {
+    margin-top: 0.35rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+}
+
+@media (max-width: 991px) {
+  .arcade-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .arcade-news-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .arcade-hero {
+    min-height: 220px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .arcade-stats,
+  .arcade-news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+// News page: a heading and a line for each year
+.arcade-news-year {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.6rem;
+  color: var(--global-text-color);
+}
+
+.arcade-news-year:first-of-type {
+  margin-top: 0.5rem;
+}
+
+// Picture rows: no extra space between the pictures and their caption
+.post .row figure {
+  margin-bottom: 0;
+}
+
+.post .row + .caption {
+  margin-top: 0.5rem;
+}

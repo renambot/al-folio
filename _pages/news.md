@@ -6,4 +6,4 @@ nav_order: 2
 nav: true
 ---
 
-{% include news.liquid %}
+<div class="arcade-news-page">{% include news_cards.liquid by_year=true %}</div>
